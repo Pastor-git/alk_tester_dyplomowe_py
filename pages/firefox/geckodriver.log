@@ -1,0 +1,29 @@
+1654721021425	geckodriver	INFO	Listening on 127.0.0.1:50636
+1654890126968	geckodriver	INFO	Listening on 127.0.0.1:62649
+1654890129711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62650" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\macie\\AppData\\Local\\Temp\\rust_mozprofilet7t5Zf"
+1654890130651	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62650
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\macie\\AppData\\Local\\Temp\\rust_mozprofilet7t5Zf\\search.json.mozlz4", (void 0)))
+1654890137454	Marionette	INFO	Listening on port 62679
+Read port: 62679
+1654890137628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:62650/devtools/browser/8740caf2-a35f-4b7b-903f-006343395533
+1654890279747	Marionette	INFO	Stopped listening on port 62679
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1654891371216	geckodriver	INFO	Listening on 127.0.0.1:62891
+1654891374259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62892" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\macie\\AppData\\Local\\Temp\\rust_mozprofilef8TSes"
+1654891374887	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62892
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\macie\\AppData\\Local\\Temp\\rust_mozprofilef8TSes\\search.json.mozlz4", (void 0)))
+1654891380633	Marionette	INFO	Listening on port 62918
+Read port: 62918
+DevTools listening on ws://localhost:62892/devtools/browser/78020821-f8ad-4a9e-8049-5d104c5673c1
+1654891380783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654891386081	Marionette	INFO	Stopped listening on port 62918
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
