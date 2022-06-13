@@ -13,3 +13,4 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 driver = webdriver.Firefox(executable_path="C:/webdrivers/geckodriver.exe")
 
 driver.get("https://cabinternational.herokuapp.com")
+driver.maximize_window()

@@ -19,7 +19,7 @@ class Test1(unittest.TestCase):
         number1 = button2.text
         button2.click()
         number2 = button2.text
-        assert ()
+        self.assertNotEqual(number1, number2)
 
 if __name__ == "__main__":
     unittest.main()
