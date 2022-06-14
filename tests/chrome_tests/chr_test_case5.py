@@ -10,16 +10,11 @@ class Test1(unittest.TestCase):
         self.driver.get("https://cabinternational.herokuapp.com")
         self.driver.maximize_window()
 
-    def tearDown(self):
-        self.driver.quit()
-
     def test_test1(self):
         driver=self.driver
-        button2 = driver.find_element(By.XPATH,'/html/body/div/div[2]/div[2]/button')
-        number1 = button2.text
-        button2.click()
-        number2 = button2.text
-        self.assertNotEqual(number1, number2)
+
+    def tearDown(self):
+        self.driver.quit()
 
 if __name__ == "__main__":
     unittest.main()
