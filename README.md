@@ -88,10 +88,34 @@ chr_test_case1_counterbutton
 
 chr_test_case2_menu
 
-
+        sprawdź, czy wyświetlane jest menu <div> oraz przyciski reprezentujące React.Router i React.Navlink:
+        
+        sprawdzenie widoków obsługiwanych/opakowanych przez Routera
 
 chr_test_case3_reports
 
+        sprawdzenie liczby "raportów"/produktów firmy wyświetlanych na stronie ze znajomością dokładnej liczby
+        który powinien być wyświetlany jako dane wejściowe dla przypadku testowego
+
+        na podstawie potwierdzenia, że wszystkie raporty są wyświetlane, przypadek testowy powinien sprawdzać błędy programistów
+        powodujące błędy lub problemy z prezentacją krytycznych informacji lub wartości kodu na stronie
+        oczekiwane warunki: 0 - do celów szkoleniowych test celowo nie powiedzie się
+
 chr_test_case4_author
 
+        sprawdzenie, czy wszystkie artykuły umieszczone na stronie mają "JAN" jako "autor"
+        może to uniemożliwić administratorom witryn otrzymanie kary za naruszenie praw własności intelektualnej
+
 chr_test_case5_logo
+
+        test na wyświetlanie logo. Dla każdego widoku istnieje drzewo komponentów.
+        Gdy pojawi się problem i spowoduje załamanie drzewa komponentów
+        czasami strona działa poprawnie, ale użytkownik utknął w oknie bez błędów i interfejsu użytkownika.
+        Aplikacja wygląda na działającą poprawnie, z inną ścieżką routera-navlink wolną od błędów
+        jednak efekt UX jest terr do zera.
+        Aby rozpoznać ten problem najłatwiej jest sprawdzić, czy najprostszy element nad widokami
+        ścieżki skierowanego routera buy nie będą wyświetlane, podobnie jak uszkodzone drzewo komponentów
+        Niepowodzenie w takim teście daje programistom sygnał, że coś jest nie tak
+        może z jednym z komponentów w ścieżkach React.Router
+
+        Drugim celem jest upewnienie się, że logo marki witryny internetowej jest zawsze wyświetlane prawidłowo.

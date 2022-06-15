@@ -8,7 +8,7 @@ class Test4(BaseTest):
         driver=self.driver
         self.home_page.open_articles_page(driver)
 
-        # checking if all the articles presneted on page has "JAN" as "author"
+        # checking if all the articles presented on page has "JAN" as "author"
         # this could prevent website administrators from receiving intellectual property rights delict penalty
 
         article_list = driver.find_elements(By.CLASS_NAME, "article")

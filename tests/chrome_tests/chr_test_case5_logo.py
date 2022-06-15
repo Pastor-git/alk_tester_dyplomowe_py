@@ -5,7 +5,6 @@ from tests.chrome_tests.base_test import BaseTest
 class Test5(BaseTest):
 
     def test_test5(self):
-        driver=self.driver
 
         # test for Logo display. For each view, there is a component tree.
         # Once an issue accrues and causes component tree collapsing
