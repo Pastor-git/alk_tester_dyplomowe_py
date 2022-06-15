@@ -10,7 +10,7 @@ https://selenium-python.readthedocs.io/page-objects.html#test-case
 
 Data Driven Test wykonany częściowo z pwoodu braku możliwości logowania użytwkonika, 
 która zostanie rozwinięta w przyszłości. "chr_login_test_case-data" 
-wypełnia pola typu <input> prostymi danymi i wykonuje operację onClick() na "Zaloguj"
+wypełnia pola typu "input" prostymi danymi i wykonuje operację onClick() na "Zaloguj"
 Zasadnie na potrzeby wymagań dyplomu został wykluczony z suit testowego "run_testy.py"
 
 Pozostałe pięć przypadków testowe sprawdząją UI, UX oraz drzewo Reac.Component i React DOM
