@@ -50,7 +50,14 @@ celem było przetestowanie możliwie nieprzyjaznych testerowi rozwiązań
 wygodnych dla forn-end developera oraz wad w oprogramowaniu, któe są trudno wykrywalne 
 z perspektywy developera
 
-w przyszłości oba projekty - testowy i webowy zostaną roziwnięte 
+Aplikacja Webowa w React to efekt wiedzy uzyskanej w ramach studiów podyplomowych 
+Fornt-end Developer z React na Akademii Leona Koźmińskiego w roku akademickim 2020/2021
+Pod kierownictwem: 
+Grzegorz Mazur
+Opiekun projektu zaliczeniowego w React: Rober Kuliński
+
+w przyszłości oba projekty - testowy i webowy zostaną roziwnięte lub 
+na nabytej na ich podstawie wiedzy rozwinięty zostanie projekt komercyjny
 
 repozytorium: https://github.com/Pastor-git/cabinternational.git
 
@@ -72,7 +79,16 @@ wersja polskojęzyczna
 
 chr_test_case1_counterbutton
 
+        Testowanie wbudowanej funkcjonalności wewnątrz drugiej kompilacji przycisku z instancji React.Component CounterButton
+        bez żadnych unikalnych właściwości - symulacja niewspierającego środowiska testera
+
+        testowanie w przypadku, gdy każda instancja CounterButton jest niezależna i ma niezależny wynik oparty na „rekwizytach”
+        bez ingerencji w stan danych button2.liczba powinna być wyższa niż nie kliknięty button1.number
+        każdy lokalizator inny niż XPATH powinien prowadzić do wystąpienia CounterButton wyświetlanego jako pierwszy
+
 chr_test_case2_menu
+
+
 
 chr_test_case3_reports
 
