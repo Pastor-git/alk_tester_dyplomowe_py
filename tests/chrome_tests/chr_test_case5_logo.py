@@ -19,7 +19,7 @@ class Test1(BaseTest):
 
         # Second goal is to make sure the Logo of Website Brand is always displayed properly.
 
-        LOGO = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/img")
+        LOGO = self.home_page.get_logo()
 
         self.home_page.click_reports_button()
         is_displayed = LOGO.is_displayed()

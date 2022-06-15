@@ -8,6 +8,7 @@ class Home_Page_Locators():
     HOME_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[1]/a/button")
     REPORTS_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[2]/a/button")
     ARTICLES_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[3]/a/button")
+    LOGO = (By.XPATH, "/html/body/div[1]/div[1]/img")
 
 class Report_Page_Locators():
     REPORT = (By.CLASS_NAME, "report")
