@@ -1,16 +1,10 @@
-import unittest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
+from tests.chrome_tests.base_test import BaseTest
 
-class Test1(unittest.TestCase):
-    def setUp(self):
-        s = Service("C:\webdrivers\chromedriver.exe")
-        self.driver = webdriver.Chrome(service=s)
-        self.driver.get("https://cabinternational.herokuapp.com")
-        self.driver.maximize_window()
 
-    def test_test1(self):
+class Test1(BaseTest):
+
+    def test_test2(self):
         driver=self.driver
 
         #Locators by exact XPATH:
@@ -36,23 +30,17 @@ class Test1(unittest.TestCase):
 
         #checking the views handled/wrapped by Router:
 
-        REPORTS_PAGE_BUTTON.click()
+        self.home_page.click_reports_button()
         current_url = driver.current_url
         expected_url = "https://cabinternational.herokuapp.com/reports"
         self.assertEqual(current_url, expected_url)
 
-        ARTICLES_PAGE_BUTTON.click()
+        self.home_page.click_articles_button()
         current_url = driver.current_url
         expected_url = "https://cabinternational.herokuapp.com/articles"
         self.assertEqual(current_url, expected_url)
 
-        HOME_PAGE_BUTTON.click()
+        self.home_page.click_home_button()
         current_url = driver.current_url
         expected_url = "https://cabinternational.herokuapp.com/"
         self.assertEqual(current_url, expected_url)
-
-    def tearDown(self):
-        self.driver.quit()
-
-if __name__ == "__main__":
-    unittest.main()

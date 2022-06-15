@@ -1,17 +1,12 @@
-import unittest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
+from tests.chrome_tests.base_test import BaseTest
 
-class Test1(unittest.TestCase):
-    def setUp(self):
-        s = Service("C:\webdrivers\chromedriver.exe")
-        self.driver = webdriver.Chrome(service=s)
-        self.driver.get("https://cabinternational.herokuapp.com/reports")
-        self.driver.maximize_window()
 
-    def test_test1(self):
+class Test1(BaseTest):
+
+    def test_test3(self):
         driver=self.driver
+        self.home_page.open_reports_page(driver)
 
         #checking number of "reports"/company products displayed on page with knowledge of exact number
         # which should be displayed as an input for the test case
@@ -28,8 +23,5 @@ class Test1(unittest.TestCase):
         number_of_cases = len(report_list_error)
         self.assertEqual(0, number_of_cases)
 
-    def tearDown(self):
-        self.driver.quit()
-
-if __name__ == "__main__":
-    unittest.main()
+        # OK
+        # self.assertEqual(5, number_of_cases)

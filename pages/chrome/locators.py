@@ -1,24 +1,16 @@
-# from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service
-# from selenium.webdriver.common.by import By
-#
-# s = Service("C:\webdrivers\chromedriver.exe")
-# driver = webdriver.Chrome(service=s)
-#
-# driver.get("https://cabinternational.herokuapp.com")
-# driver.maximize_window()
-# element = driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[2]/button')
-# element.click()
-
 from selenium.webdriver.common.by import By
 
-class MainPageLocators(object):
-    """A class for main page locators. All main page locators should come here"""
 
-    GO_BUTTON = (By.ID, 'submit')
+class Home_Page_Locators():
+    TEST_BUTTON = (By.ID, "testbutton")
+    SECOND_BUTTON = (By.XPATH, "/html/body/div/div[2]/div[2]/button")
+    MAIN_DIV = (By.XPATH, "/html/body/div[1]/nav")
+    HOME_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[1]/a/button")
+    REPORTS_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[2]/a/button")
+    ARTICLES_PAGE_BUTTON = (By.XPATH, "/html/body/div[1]/nav/table/tr[3]/a/button")
 
-class SearchResultsPageLocators(object):
-    """A class for search results locators. All search results locators should
-    come here"""
+class Report_Page_Locators():
+    REPORT = (By.CLASS_NAME, "report")
 
-    pass
+class Articles_Page_Locators():
+    ARTICLE = (By.CLASS_NAME, "article")
