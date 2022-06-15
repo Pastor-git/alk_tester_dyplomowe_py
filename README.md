@@ -2,8 +2,6 @@ Projekt realizowany w ramach kierunku studiów podyplomowych:
 TESTER AUTOMATYZUJĄCY W SELENIUM
 na uczelni Akademia Leona Koźmińsiego w Warszawie 
 Stacjonarnie
-Kierownik studiów: Grzegorz Mazur
-Wykładowca promotor: Karol Kolański
 
 zastsowano page object pattern zgodnie z:
 https://selenium-python.readthedocs.io/page-objects.html#test-case
@@ -52,9 +50,6 @@ z perspektywy developera
 
 Aplikacja Webowa w React to efekt wiedzy uzyskanej w ramach studiów podyplomowych 
 Fornt-end Developer z React na Akademii Leona Koźmińskiego w roku akademickim 2020/2021
-Pod kierownictwem: 
-Grzegorz Mazur
-Opiekun projektu zaliczeniowego w React: Rober Kuliński
 
 w przyszłości oba projekty - testowy i webowy zostaną roziwnięte lub 
 na nabytej na ich podstawie wiedzy rozwinięty zostanie projekt komercyjny
