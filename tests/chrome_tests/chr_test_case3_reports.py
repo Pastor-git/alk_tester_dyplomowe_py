@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from tests.chrome_tests.base_test import BaseTest
 
 
-class Test1(BaseTest):
+class Test3(BaseTest):
 
     def test_test3(self):
         driver=self.driver
@@ -21,7 +21,7 @@ class Test1(BaseTest):
 
         report_list_error = driver.find_elements(By.XPATH, "//*[contains(text(),'/static/media/')]")
         number_of_cases = len(report_list_error)
+        # REAL TEST
         self.assertEqual(0, number_of_cases)
-
-        # OK
+        # OK for "all green lights"
         # self.assertEqual(5, number_of_cases)

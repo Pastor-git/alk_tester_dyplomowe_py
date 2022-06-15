@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from tests.chrome_tests.base_test import BaseTest
 
 
-class Test1(BaseTest):
+class Test5(BaseTest):
 
     def test_test5(self):
         driver=self.driver
