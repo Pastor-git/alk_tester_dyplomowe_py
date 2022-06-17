@@ -42,18 +42,7 @@ tests.chrome_tests.base_test.py class BaseTest
         # self.driver.get("https://cabinternational.herokuapp.com")
 
 ----------------------
-Specjalnie na potrzeby projektu równolegle zbudoway został sandbox 
-w postaci szklieletu aplikacji webowej w technologi React z użyciam javascript
-celem było przetestowanie możliwie nieprzyjaznych testerowi rozwiązań 
-wygodnych dla forn-end developera oraz wad w oprogramowaniu, któe są trudno wykrywalne 
-z perspektywy developera
-
-Aplikacja Webowa w React to efekt wiedzy uzyskanej w ramach studiów podyplomowych 
-Fornt-end Developer z React na Akademii Leona Koźmińskiego w roku akademickim 2020/2021
-
-w przyszłości oba projekty - testowy i webowy zostaną roziwnięte lub 
-na nabytej na ich podstawie wiedzy rozwinięty zostanie projekt komercyjny
-
+strona testowa:
 repozytorium: https://github.com/Pastor-git/cabinternational.git
 
 ----------------------
